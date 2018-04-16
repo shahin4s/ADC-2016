@@ -1,0 +1,193 @@
+E:\support\adprep>adprep /forestprep
+
+ADPREP WARNING:
+
+Before running adprep, all Windows Active Directory Domain Controllers in the fo
+rest must run Windows Server 2003 or later.
+
+You are about to upgrade the schema for the Active Directory forest named 'bd.local', 
+using the Active Directory domain controller (schema master) 'w2k16.bd.local'.
+This operation cannot be reversed after it completes.
+
+[User Action]
+If all domain controllers in the forest run Windows Server 2003 or later and you
+ want to upgrade the schema, confirm by typing 'C' and then press ENTER to conti
+nue. Otherwise, type any other key and press ENTER to quit.
+
+
+Current Schema Version is 69
+
+
+Upgrading schema to version 87
+
+
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch70.ldf"
+Loading entries......
+5 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch71.ldf"
+Loading entries........
+12 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch72.ldf"
+Loading entries......
+17 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch73.ldf"
+Loading entries......
+22 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch74.ldf"
+Loading entries...............
+36 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch75.ldf"
+Loading entries.......
+42 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch76.ldf"
+Loading entries..........
+51 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch77.ldf"
+Loading entries.............
+63 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch78.ldf"
+Loading entries........
+70 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch79.ldf"
+Loading entries....
+73 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch80.ldf"
+Loading entries........
+80 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch81.ldf"
+Loading entries.....
+84 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch82.ldf"
+Loading entries........
+91 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch83.ldf"
+Loading entries......
+96 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch84.ldf"
+Loading entries........
+103 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch85.ldf"
+Loading entries.......
+109 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch86.ldf"
+Loading entries......
+114 entries modified successfully.
+
+The command has completed successfully
+Verifying file signature
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\sch87.ldf"
+Loading entries..........
+123 entries modified successfully.
+
+The command has completed successfully
+Connecting to "w2k16.bd.local"
+Logging in as current user using SSPI
+Importing directory from file "E:\support\adprep\PAS.ldf"
+Loading entries....................
+142 entries modified successfully.
+
+The command has completed successfully
+Adprep successfully updated the forest-wide information.
+
+########################################################
+E:\support\adprep>adprep /domainprep /gpprep
+Adprep successfully updated the domain-wide information.
+
+
+No Group Policy Object (GPO) updates needed, or GPO information has already been
+ updated.
+[Status/Consequence]
+Adprep did not attempt to rerun this operation.
+
+
+
+E:\support\adprep>adprep /domainprep
+Domain-wide information has already been updated.
+[Status/Consequence]
+Adprep did not attempt to rerun this operation.
+
