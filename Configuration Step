@@ -31,15 +31,15 @@ objectVersion     : 69 ( we have to upgrade 87)
 
 # Update schema: 
 Update forest :
-cd /d D:\support\adprep
+cd E:\support\adprep
 adprep /forestprep
 
 # Domain and Group policy update:
 
-cd /d D:\support\adprep
+cd  E:\support\adprep
 adprep /domainprep
 adprep /domainprep /gpprep[ its for earlier server 2012R2]
- [here D:\ = server 2016 iso moundated drive ]
+ [here E:\ = server 2016 iso moundated drive ]
 
 # Verify schema version : 
 Get-ADObject (Get-ADRootDSE).schemaNamingContext -Property objectVersion
