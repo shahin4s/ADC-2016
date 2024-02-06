@@ -14,7 +14,7 @@ FSMO role Transfer to new server
 Demote old DC server 2012 R2
 
 
-# Install server 2016 and complete pre-installations using sconfig # commend.
+# Install server 2016 and complete pre-installations using sconfig  commend.
  Hostname, Timezone, Network, Remote Desktop, firewall.
 
 # Prepare server 2012
@@ -26,7 +26,9 @@ Or (Get-ADForest).ForestMode, (Get-ADDomain).DomainMode
 
 # prepare schema Object:
 # Checking schema version:
+
 Get-ADObject (Get-ADRootDSE).schemaNamingContext -Property objectVersion
+
 objectVersion     : 69 ( we have to upgrade 87)
 
 # Update schema: 
